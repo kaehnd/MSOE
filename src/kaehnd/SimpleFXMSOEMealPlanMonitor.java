@@ -12,6 +12,9 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
+/**
+ * Temporary test application for Meal Plan Monitor classes
+ */
 public class SimpleFXMSOEMealPlanMonitor extends Application {
 
 

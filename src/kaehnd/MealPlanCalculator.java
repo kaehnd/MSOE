@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.LinkedList;
 
+/**
+ * Performs Analytics on information obtained from MSOE Webcard server
+ */
 public class MealPlanCalculator {
 
     private WebcardCrawler crawler;

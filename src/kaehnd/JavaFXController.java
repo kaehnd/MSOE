@@ -21,6 +21,9 @@ import java.util.ResourceBundle;
 import extfx.scene.chart.DateAxis;
 import javafx.util.StringConverter;
 
+/**
+ * Controller for application
+ */
 public class JavaFXController {
 
    @FXML

@@ -8,6 +8,9 @@ import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
 
 import java.io.IOException;
 
+/**
+ * Account class integrated with HtmlUnit to allow password security
+ */
 public class Account {
 
     private final String username;
