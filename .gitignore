@@ -1,0 +1,9 @@
+
+
+.idea/
+out/
+META-INF/
+
+*.iml
+*.zip
+*.docx
