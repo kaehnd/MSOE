@@ -76,7 +76,7 @@ public class WebcardCrawler {
 
     private HtmlPage logIn(HtmlPage loginPage) throws Exception {
         final HtmlForm form = loginPage.getFormByName("frmLogin");
-        return (new Account("kaehnd", "lespaulpenguin1")).login(form);
+        return (new Account("kaehnd", "**************")).login(form);
     }
 
     private float getMealDollars(HtmlPage mainPage) {
