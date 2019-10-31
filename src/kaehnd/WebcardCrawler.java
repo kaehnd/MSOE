@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
- * Temporary class gathering data from MSOE webcard server
+ * Temporary class gathering data from MSOE webcard server and things
  */
 public class WebcardCrawler {
 
