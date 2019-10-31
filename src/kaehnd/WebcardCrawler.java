@@ -15,7 +15,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-
+/**
+ * Temporary class gathering data from MSOE webcard server
+ */
 public class WebcardCrawler {
 
     private static final String webcardLoginURL = "https://webcard.msoe.edu/login/ldap.php";
@@ -74,7 +76,7 @@ public class WebcardCrawler {
 
     private HtmlPage logIn(HtmlPage loginPage) throws Exception {
         final HtmlForm form = loginPage.getFormByName("frmLogin");
-        return (new Account("kaehnd", "lespaulpenguin1!")).login(form);
+        return (new Account("kaehnd", "lespaulpenguin1")).login(form);
     }
 
     private float getMealDollars(HtmlPage mainPage) {
